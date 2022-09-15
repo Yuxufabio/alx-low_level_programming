@@ -4,7 +4,7 @@
  * print_alphabet - prints lowcase alphabets
  *
  * Return: always NULL.
- * /
+ */
 
 void	print_alphabet(void)
 
