@@ -1,16 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10(void) - Prints lowercase alphalebets x10
+ * print_alphabet_x10 - Prints lowercase alphalebets x10
  *
  * Return: Always NULL.
  */
 
 void print_alphabet_x10(void)
 {
-	int a, i;
+	int a;
+	int i;
 
-	a = 'a', i = 0;
+	a = 'a';
+	i = 0;
 	while (i < 10)
 	{
 		while (a <= 'z')
@@ -18,6 +20,7 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 		}
+		_putchar('\n');
 		i++;
 	}
 	_putchar('\n');

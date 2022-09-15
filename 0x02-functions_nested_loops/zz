@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra $cc zmain.c && ./a.out;
+gcc -Wall -Werror -Wextra zmain.c $cc && ./a.out;
 rm a.out
