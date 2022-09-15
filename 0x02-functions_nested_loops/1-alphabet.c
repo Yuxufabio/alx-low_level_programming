@@ -1,6 +1,12 @@
 #include "main.h"
 
-void	print_alphabet()
+/**
+ * print_alphabet - prints lowcase alphabets
+ *
+ * Return: always NULL.
+ * /
+
+void	print_alphabet(void)
 
 {
 	int a;
