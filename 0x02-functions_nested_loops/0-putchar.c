@@ -14,8 +14,8 @@ int main(void)
 	i = 0;
 	while (putc[i] != '\0')
 	{
-		putchar(putc[i]);
+		_putchar(putc[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
